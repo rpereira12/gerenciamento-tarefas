@@ -1,2 +1,3 @@
-# gerenciamento-tarefas
-Projeto desenvolvido para Trixx
+# Gerenciamento de tarefas
+
+Projeto desenvolvido para Trixx para avaliação.
