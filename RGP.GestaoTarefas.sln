@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RGP.GestaoTarefas.Domain", "RGP.GestaoTarefas.Domain\RGP.GestaoTarefas.Domain.csproj", "{FA1371DC-59EA-4855-A325-A66D85DD272E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RGP.GestaoTarefas.Data", "RGP.GestaoTarefas.Data\RGP.GestaoTarefas.Data.csproj", "{F37A4EDF-2100-4084-BC21-C4B550A98CFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RGP.GestaoTarefas.API", "RGP.GestaoTarefas.API\RGP.GestaoTarefas.API.csproj", "{BB561F31-3EFB-469F-9508-DB6DA772B8CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Entrypoint", "1. Entrypoint", "{B18E5D55-F433-4B7F-9FC1-692580DC681D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Core", "2. Core", "{FED4D7D8-0B8C-444A-8E51-EC087895B3CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Infra", "3. Infra", "{DADC15D8-1E77-41DA-8293-7390D055EDEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RGP.GestaoTarefas.Application", "RGP.GestaoTarefas.Application\RGP.GestaoTarefas.Application.csproj", "{40BAC381-8FE3-4376-B0B6-FEC039AEF441}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA1371DC-59EA-4855-A325-A66D85DD272E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA1371DC-59EA-4855-A325-A66D85DD272E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA1371DC-59EA-4855-A325-A66D85DD272E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA1371DC-59EA-4855-A325-A66D85DD272E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F37A4EDF-2100-4084-BC21-C4B550A98CFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F37A4EDF-2100-4084-BC21-C4B550A98CFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F37A4EDF-2100-4084-BC21-C4B550A98CFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F37A4EDF-2100-4084-BC21-C4B550A98CFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB561F31-3EFB-469F-9508-DB6DA772B8CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB561F31-3EFB-469F-9508-DB6DA772B8CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB561F31-3EFB-469F-9508-DB6DA772B8CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB561F31-3EFB-469F-9508-DB6DA772B8CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40BAC381-8FE3-4376-B0B6-FEC039AEF441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40BAC381-8FE3-4376-B0B6-FEC039AEF441}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40BAC381-8FE3-4376-B0B6-FEC039AEF441}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40BAC381-8FE3-4376-B0B6-FEC039AEF441}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FA1371DC-59EA-4855-A325-A66D85DD272E} = {FED4D7D8-0B8C-444A-8E51-EC087895B3CB}
+		{F37A4EDF-2100-4084-BC21-C4B550A98CFC} = {DADC15D8-1E77-41DA-8293-7390D055EDEC}
+		{BB561F31-3EFB-469F-9508-DB6DA772B8CE} = {B18E5D55-F433-4B7F-9FC1-692580DC681D}
+		{40BAC381-8FE3-4376-B0B6-FEC039AEF441} = {FED4D7D8-0B8C-444A-8E51-EC087895B3CB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C83392AF-79EE-49EA-AF42-5D7CEAB9B6AE}
+	EndGlobalSection
+EndGlobal
